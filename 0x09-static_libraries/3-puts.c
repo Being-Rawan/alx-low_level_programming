@@ -1,6 +1,16 @@
 #include "main.h"
+
+/**
+ * _puts - prints a string to stdout
+ * @str: the string to print
+ *
+ * Return: void
+ */
 void _puts(char *str)
-#include<stdio.h>
+{
+    printf("%s\n", str);
+}
+
 /**
  * main - Entry point
  *
@@ -8,6 +18,6 @@ void _puts(char *str)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+    _puts("\"Programming is like building a multilingual puzzle");
+    return (0);
 }
